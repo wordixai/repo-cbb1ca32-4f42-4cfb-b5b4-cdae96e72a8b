@@ -1,3 +1,4 @@
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -104,7 +105,7 @@
   }
 
   .secondary-button {
-    @apply border bg-background shadow-sm hover:bg-accent hover:text-accent-foreground;
+    @apply border bg-background shadow-sm hover:bg-accent hover:text-accent-foreground dark:bg-input/30 dark:border-input dark:hover:bg-input/50;
   }
 
   .feature-card {
@@ -112,12 +113,6 @@
   }
 
   .tech-card {
-    @apply relative overflow-hidden rounded-2xl border bg-background p-4 transition-transform duration-300 ease-in-out hover:scale-105 cursor-pointer h-full;
-  }
-}
-
-@layer components {
-  .tech-card {
-    @apply md:p-6;
+    @apply relative overflow-hidden rounded-2xl border bg-background p-4 md:p-6 transition-transform duration-300 ease-in-out transform hover:scale-105 cursor-pointer h-full;
   }
 }
