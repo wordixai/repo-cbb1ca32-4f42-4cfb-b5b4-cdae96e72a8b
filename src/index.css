@@ -100,11 +100,11 @@
   }
 
   .primary-button {
-    @apply bg-primary text-primary-foreground hover:bg-primary/90 shadow-xs;
+    @apply bg-primary text-primary-foreground hover:bg-primary/90 shadow-sm;
   }
 
   .secondary-button {
-    @apply border bg-background shadow-xs hover:bg-accent hover:text-accent-foreground dark:bg-input/30 dark:border-input dark:hover:bg-input/50;
+    @apply border bg-background shadow-sm hover:bg-accent hover:text-accent-foreground dark:bg-input/30 dark:border-input dark:hover:bg-input/50;
   }
 
   .feature-card {
